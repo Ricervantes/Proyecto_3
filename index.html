@@ -49,10 +49,38 @@
           </form>
         </div>
       </nav>
-      
+    </div>
+<!--contenido de la pagina-->
+<div class="container" style="background-color:#bcb9d9">
+    <h1>LIBROS  MAS LEIDOS </h1>
+    <div class="row" id="loaderContainer">
+        <div class="col-md-12 text-center">
+            <div class="lds-heart"><div></div></div>
+            
+            <p>Cargando...</p>  
+        </div>
+    </div>
 
+    <div class="row d-none" id="rowContainer">
+        <div class="col-md-12">
+            <canvas id="myChart" width="400" height="250"></canvas>
+        </div>
+        <div class="col-md-12">
+
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="tblUsuarios">
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 <script src="assets/js/mains.js"></script>
