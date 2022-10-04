@@ -69,14 +69,39 @@
   }
   
 
-
-
-
-
-
-
-
 footer {
     margin-top: auto;
     align-items: flex-end;
+}
+
+ @media only screen  and  (max-width:600px){
+  .navbar{
+  background-color: #ebe6ea;}
+
+.footer{
+  background-color: #e4c5c4;
+  width:200px;
+}
+.container{
+background-color: #c8ad8d;
+}
+
+
+
+}
+
+ @media only screen  and  (min-width:300px){
+  .navbar{
+  background-color: #ebe6ea;}
+
+.footer{
+  background-color: #e4c5c4;
+  width:200px;
+}
+.container{
+background-color: #c8ad8d;
+}
+
+
+
 }
