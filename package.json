@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "name": "proyecto_3",
+  "description": "instalacion de dependencias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricervantes/Proyecto_3.git"
+  },
+  "keywords": [
+    "dependencias",
+    "node",
+    "js"
+  ],
+  "author": "Rachel Cervantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricervantes/Proyecto_3/issues"
+  },
+  "homepage": "https://github.com/Ricervantes/Proyecto_3#readme"
+}
