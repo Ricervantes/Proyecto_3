@@ -83,22 +83,7 @@ function agregarUsuario() {
     form_data.append("cantidad", document.getElementById("cantidad").value);
 
 
-    fetch(base_url_api + "/Main/animales",
-        {
-            method: "POST",
-            body: form_data
-        }
-    )
-        .then(response => response.json())
-        .then(result => {
-            console.log(result);
-            limpiarFormulario();
-            cargarLibros();
-        })
-        .catch((error) => {
-            console.log("Error detectado");
-        })
-
+    
 
 }
 
