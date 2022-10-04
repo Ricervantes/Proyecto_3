@@ -34,7 +34,7 @@ function cargarLibros() {
                 data: {
                     labels: labels_for_chart,
                     datasets: [{
-                        label: 'Datos Anuales',
+                        label: 'Ventas de Libros',
                         data: data_for_chart,
                         backgroundColor: [
                             '#E2CADF',
