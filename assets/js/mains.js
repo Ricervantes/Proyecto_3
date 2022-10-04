@@ -30,25 +30,30 @@ function cargarLibros() {
 
             const myChart = new Chart(grafica, {
                 type: 'bar',
+                //type: 'line',
                 data: {
                     labels: labels_for_chart,
-                    datasets: [
-                        {
-                            label: 'Libros',
-                            data: data_for_chart,
-                            fill: true,
-                            backgroundColor: '#ccd9ff',
-                            borderColor: '#3366ff'
-                        },
-                    ]
-                },
-
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
+                    datasets: [{
+                        label: 'Datos Anuales',
+                        data: data_for_chart,
+                        backgroundColor: [
+                            '#E2CADF',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            '#543E51',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
                 }
             });
 
