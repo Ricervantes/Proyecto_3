@@ -1,7 +1,7 @@
 console.log("entro a mains.js");
 
+const base_url_api = "https://ucamp.alumnos.dev4humans.com.mx/Main/endpoint_libros";
 
-const base_url_api = "http://ucamp.alumnos.dev4humans.com.mx/Main/endpoint_libros";
 const tblLibros= document.getElementById("tblLibros");
 const grafica = document.getElementById('myChart').getContext('2d');
 
